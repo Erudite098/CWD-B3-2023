@@ -1,0 +1,52 @@
+body{
+    background-color: #680a0a;
+}
+
+.nav-wrapper{
+    background-color: #510303;
+}
+
+/*Header*/
+header{
+    background-color: #510303;
+    width: 100%;
+}
+
+.titulo{
+    font-weight: bolder;
+    font-size: 120px;
+    color: white;
+    line-height: 120px;
+}
+
+.btn-large{
+    width: 200px;
+    border-radius: 50px;
+    border-style: groove;
+    margin-top: 50px;
+}
+
+/*Slider*/
+.slider .slogan {
+    color: white;
+    font-size: 20px;
+}
+
+.slider .tagline{
+    color: #f60000;
+    font-size: 50px;
+    font-weight: bolder;   
+}
+
+
+/* Material Box */
+.materialboxed{
+    width: 500px;
+    
+}
+
+.container img{
+    border-radius: 8px;
+
+}
+

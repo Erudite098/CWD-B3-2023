@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/76890dc9bd.js" crossorigin="anonymous"></script>
+            
+    <title>Media</title>
+</head>
+
+<body>
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo left"><i class="fa-solid fa-globe hide-on-med-and-down"></i><b>MYXERIA</b>CO</a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <br><br>
+        <span class="titulo">Rock the<br> Wild Festival</span>
+        <br><br><br>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m9">
+             <h4 class="white-text">July 7 to 9 / <br> North Fortberry National Park</h4>
+          </div>
+          <div class="col s12 m3">
+            <a class="waves-effect waves-light transparent btn-large"><i class="right fa-solid fa-angles-right"></i>Learn More</a>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+    </header>
+
+    <!--Slider-->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="image/party.jpg" alt="">
+          <div class="caption center-align">
+            <p>
+              <span class="tagline">Spirit<br></span>
+              <span class="slogan">Let the music be your guiding spirit.</span>
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="image/party2.jpg" alt="">
+          <div class="caption center-align">
+            <p>
+              <span class="tagline">Melody<br></span>
+              <span class="slogan">Let the music be your guiding spirit.</span>
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="image/party3.jpg" alt="">
+          <div class="caption center-align">
+            <p>
+              <span class="tagline">Rythym<br></span>
+              <span class="slogan">Let the music be your guiding spirit.</span>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!--Material Box-->
+    <div class="container">
+      <h1 class="center white-text">Performances</h1>
+      <br>
+      <div class="row">
+        <div class="col s12 m6">
+          <img class="materialboxed responsive-img" src="image/sing1.jpg">
+          <br>
+          <div class="divider"></div>
+          <p class="flow-text white-text"> <b>Lucky Color Red</b></p>
+          <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat totam quia.</p>
+        </div>
+        <div class="col s12 m6">
+          <img class="materialboxed responsive-img" src="image/sing5.jpg">
+          <br>
+          <div class="divider"></div>
+          <p class="flow-text white-text"> <b>Billie on Fire</b></p>
+          <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat totam quia.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6">
+          <img class="materialboxed responsive-img" src="image/sing3.jpg">
+          <br>
+          <div class="divider"></div>
+          <p class="flow-text white-text"> <b>The White Guy</b></p>
+          <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat totam quia.</p>
+        </div>
+        <div class="col s12 m6">
+          <img class="materialboxed responsive-img hoverable" src="image/sing2.png">
+          <br>
+          <div class="divider"></div>
+          <p class="flow-text white-text"> <b>The Parachute</b></p>
+          <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat totam quia.</p>
+        </div>
+      </div>
+    </div>
+ 
+
+  <!-- JQuery-->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').slider();
+    });
+
+    $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
+      
+
+  </script>
+
+ 
+</body>
+</html>

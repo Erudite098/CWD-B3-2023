@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel="stylesheet" href="style.css">
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/76890dc9bd.js" crossorigin="anonymous"></script>
+             
+    <title>PinNaCle.com</title>
+</head>
+<body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown" class="dropdown-content">
+        <li><a href="#!" class="color-text">My Account</a></li>
+        <li><a href="#!" class="color-text">Change Password</a></li>
+    </ul>
+
+    <!--Navigation-->
+    <nav class="nav-extended">
+        <!-- Nav Wrapper -->
+        <div class="nav-wrapper nav-color"> 
+            <div class="container">
+                <a href="#" class="brand-logo">PnC (UC)</a>
+                <a href="#" data-target="mobile-links" class="sidenav-trigger">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+                <ul class="show-on-med-and-down hide-on-up right">
+                    <li><a class="btn-floating btn-small green darken-2"><i class="fa-solid fa-bell"></i></a></li>
+                </ul>
+
+                <ul class="right hide-on-med-and-down">
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown">Profile<i class="fa-solid fa-user fa-sm right"></i></a></li>
+                    <!-- Logout -->
+                    <li><a href="#"><i class="fa-solid fa-right-from-bracket fa-sm right"></i>Logout</a></li>
+                </ul>
+
+               
+            </div>
+        </div>
+
+        <!-- Nav Content -->
+        <div class="nav-content white">
+            <div class="container">
+                <ul class="tabs hide-on-med-and-down">
+                    <li class="tab"><a class="active color-text" href="#test1">Dashboard</a></li>
+                    <li class="tab"><a class="color-text" href="#test2">Academic Tracker</a></li>
+                    <li class="tab"><a class="color-text" href="#test3">My Grades</a></li>
+                    <li class="tab"><a class="color-text" href="#test4">Schedule</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!--Side Navigation-->
+    <ul id="mobile-links" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/PNC.png" alt="">
+                </div>
+                <a href="#user">
+                    <img class="circle" alt="" src="images/Zania.jpg">
+                </a>
+                <a href="#name">
+                    <span class="white-text name">Kerzania Abregana Macalde</span>
+                </a>
+                <a href="#email">
+                    <span class="white-text email">kerzaniamacalde@gmail.com</span>
+                </a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="fa-solid fa-user"></i>My Account</a></li>
+        <li><a href="#!"><i class="fa-solid fa-lock"></i>Change Password</a></li>
+        <li><a href="#!"><i class="fa-solid fa-right-from-bracket  left"></i>Logout</a></li>
+
+        <div class="divider"></div>
+        <li><a class="subheader">TABS</a></li>
+
+        <li><a class="active" href="#test1">Dashboard</a></li>
+        <li><a href="#test2">Academic Tracker</a></li>
+        <li><a href="#test3">My Grades</a></li>
+        <li><a href="#test4">Schedule</a></li>
+    </ul>
+
+    <!--Tabs-->
+    <div id="test1">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l9"> 
+                    <br>
+                    <img src="images/pnc-header.png"  alt="" class="responsive-img">
+                    <br><br>
+                    <div class="card green lighten-5">
+                        
+                        
+                    </div>
+                    
+                </div>
+                <div class="col l3 hide-on-med-and-down">
+                    <br>
+                    <div class="card-panel">July 20, 2023</div>
+                </div>
+            </div>
+        </div>
+       
+        
+        
+    </div>
+
+    <div id="test2" class="col s12">Test 2</div>
+    <div id="test3" class="col s12">Test 3</div>
+    <div id="test4" class="col s12">Test 4</div>
+
+
+
+
+    <!-- JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".dropdown-trigger").dropdown();
+            $(".sidenav").sidenav();
+            $(".tabs").tabs();
+        })
+    </script>
+
+    
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+.tabs .indicator{
+    background-color: #198754;;
+}
+
+.tabs .tab a.active {
+    background-color: transparent;
+}
+
+.card-panel img{
+    width: 200px;
+}
+nav ul li .color-text{
+    color:#198754;
+}
+
+.nav-color{
+    background-color: #198754;
+}
