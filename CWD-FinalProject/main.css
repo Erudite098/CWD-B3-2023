@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Righteous&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: #111111; 
+}
+
+p{
+    color:#bdbdbd
+}
+
+.nav-wrapper{
+    background-color: #111111;
+}
+
+.nav-wrapper .brand-logo{
+    color: #9f1260;
+    font-size: 30PX;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+}
+
+.container{
+    width: 90%;
+}
+
+header{
+    background-image: url(images/body.png);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    white-space: pre-line; 
+    padding-top: 200px;
+    padding-left: 35px;
+   
+}
+
+.header-text .subtext{
+    font-weight: 650;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.header-text .title-text{
+    color: #B71770;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.header-text .lorem{
+    line-height: 2; 
+}
+
+.btn{
+    background-color: #B71770;
+    border-radius: 3px;
+    width: 130px;
+}
+
+.btn:hover{
+    background-color: #111111;
+}
+
+/*Project*/
+.project-section{
+    background-color: #181818;
+}
+
+.project-section .container{
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.fa-icon{
+    font-size: 30px;
+    color: #B71770;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+
+.fa-icon-2{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.card{
+    background-color: #1E1E1E;
+}
+
+.card:hover{
+    background-color: #9f1260 !important;
+}
+
+
+.card-2{
+    background-color: #9f1260;
+}
+
+.card-content .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-link{
+    color: #B71770;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.card-link:hover{
+    color: #ffffff !important;
+    transition-duration: 1000ms;
+}
+
+.card-link-2{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.fa-arrow-right{
+    padding-left: 10px ;
+}
+
+/*Featured*/
+.featured-subtext{
+    color: #a1a1a1;
+    line-height: 30px;
+}
+
+.featured-project{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.card .card-reveal{
+    background-color: #f8f8f8;
+    transition-duration: 1000ms;
+}
+
+
+/*Contatc*/
+.contact-section{
+    background-image: url(images/bgg.png);
+    background-size: cover;
+    width: auto;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-panel{
+    background-color: #1E1E1E;
+}
+
+.contact-section .contact-subtext{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height:40px;
+    letter-spacing: 2px;
+}
+
+.down-nav li{
+    display: inline-block;
+    padding-right: 30px;
+    padding-bottom: 50px;   
+}
+
+.down-nav li a{
+    color: #B71770;
+    font-weight: 500;
+    font-size: small;  
+}
+
+.page-footer{
+    background-color: #1e1e1ebd;
+}
+
+ul{
+    word-spacing: 20px;
+    color: #ffffff;
+}

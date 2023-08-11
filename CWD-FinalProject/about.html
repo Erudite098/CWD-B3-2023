@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="main.css">
+     
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/76890dc9bd.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>About Me</title>
+</head>
+<body>
+     <!--Navbar-->
+     <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo left">KRZN</a>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger right"><i class="fa-solid fa-bars"></i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>    
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </div>
+
+    <!--Sidenav-->
+    <ul class="sidenav" id="nav-mobile">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+
+    <div class="container">
+        <div class="row">
+             <div class="col s12 m12 l5">
+                <br><br>
+                <img src="images/pic2.png" class="materialboxed responsive-img" alt="">
+            </div>
+            <div class="col s12 m12 l6">
+                <div class="header-text">
+                    <span class="subtext">Hello! I am </span>
+                    <span class="title-text">Kerzania Macalde</span>
+                    <span class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos commodi possimus ducimus laborum unde officiis explicabo molestias, dolore, blanditiis aliquam, animi sunt tempore id repellat sequi debitis totam placeat non!</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--Navigator-->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 ">
+                <ul class="down-nav center">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="page-footer">
+        <div class="container">
+            <h6 class="white-text center">Created by Kerzania © 2023</h6>
+            <br>
+        </div>
+    </footer>
+
+
+    <!-- JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+    <script>
+         $(document).ready(function(){          
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox()
+        });
+    </script>
+
+    
+</body>
+</html>
